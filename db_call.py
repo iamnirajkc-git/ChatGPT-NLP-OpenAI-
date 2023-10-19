@@ -114,7 +114,7 @@ class QASystem:
 
     def call_langchain_chatbot(self, text):
         # Set your OpenAI API key
-        os.environ["OPENAI_API_KEY"] = "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"
+        os.environ["OPENAI_API_KEY"] = "*******"
         
         # List of URLs to load text data from
         urls = [
